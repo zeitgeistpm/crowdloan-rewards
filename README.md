@@ -23,7 +23,7 @@ In your `Cargo.toml` file:
 ```toml
 [dependencies]
 # --snip--
-pallet-crowdloan-rewards = { git = "https://github.com/purestake/crowdloan-rewards", default-features = false, branch = "main" }
+pallet-crowdloan-rewards = { git = "https://github.com/zeitgeistpm/crowdloan-rewards", default-features = false, branch = "main" }
 
 [features]
 default = ['std']
